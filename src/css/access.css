@@ -1,0 +1,9 @@
+h1{
+  text-align: center;
+}
+iframe{
+  margin: 0 3%;
+}
+.access-wrap{
+  display: flex;
+}

@@ -1,0 +1,97 @@
+.current-score h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.current-grid {
+  display: grid;
+  grid-template-columns: 1fr;          /* ← 1列 */
+  grid-template-rows: repeat(4, 1fr);  /* ← 4等分 */
+  gap: 12px;
+}
+
+
+.current-grid > div {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.value {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.current-score h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.current-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; 
+  gap: 12px;
+  height: 100%;               
+}
+
+
+.current-grid > div {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+
+  display: flex;             
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;       
+}
+
+
+.label {
+  display: block;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.value {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+} */

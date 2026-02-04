@@ -1,0 +1,56 @@
+.hourly {
+  margin: 2rem;
+}
+
+.hourly-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.hourly-wrapper{
+  display: flex;
+  width: 100%;
+}
+
+.hourly-left{
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.hourly-right{
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.hourly-item {
+  min-width: 80px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.hour {
+  font-weight: bold;
+}
+
+
+
+.hourly {
+  margin: 2rem;
+}
+
+.hourly-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.current-score {
+  min-width: 110px; 
+  flex-shrink: 0;
+}
