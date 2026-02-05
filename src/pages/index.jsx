@@ -80,7 +80,7 @@ const Index = () => {
               <p>地名はアイヌ語のセセク（sesek=熱い、熱くなる）に由来している</p>
               <p>テレビドラマ「北の国から 2002 遺言」 の露天風呂シーンのロケ地にも使われました</p>
               <div className="img-wrap">
-                <img src="/img/seseki1.jpg" alt="瀬石温泉" />
+                <img src="/img/seseki.jpg" alt="瀬石温泉" />
                 <img src="/img/seseki_mantyou.jpg" alt="瀬石温泉満潮時" />
               </div>
             <h1>温泉について</h1>
