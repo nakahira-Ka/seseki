@@ -25,7 +25,7 @@ const TideView = () => {
   const [tideData, setTideData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8888/rausu_tide.php" )
+    fetch("https://click.ecc.ac.jp/ecc/knakahira/seseki_buck/" )
       .then((res) => res.json())
       .then((json) => setTideData(json))
       .catch((err) => console.error("Fetch error:", err));
