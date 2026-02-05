@@ -41,10 +41,12 @@
   gap: 20%;
   justify-content: center;
   margin: 0 auto;
+  
 }
-/* .img-wrap img{
-
-} */
+.img-wrap img{
+  width: 20%;
+  height: 20%;
+}
 
 
 
