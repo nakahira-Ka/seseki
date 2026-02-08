@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/ress.css";
-import "../css/index.css";
+import "../css/detail.css";
 import Header from "../components/header";
 import NowStatus from "../features/nowStatus/NowStatus";
 import Footer from "../components/footer";

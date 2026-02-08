@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import "../css/ress.css";
-import "../css/intro.css";
+import "../css/index.css";
 
 
 const Index = () => {
@@ -66,7 +66,12 @@ const Index = () => {
   return (
     <main>
       <Header />
-
+      <div className="bgimg">
+        <div className="bgtext">
+          <h1>瀬石温泉紹介サイト</h1>
+          <p>大自然の中にある温泉</p>
+        </div>
+      </div>
       <section>
         <div className="intro-section">
           <div className="introduction">
@@ -79,15 +84,12 @@ const Index = () => {
               <p>源泉は岩礁の裂け目から湧き出し、ナトリウム塩化物泉のお湯は神経痛や腰痛、慢性皮膚病、坐骨神経痛などにも効能があるとされています</p>
               <p>地名はアイヌ語のセセク（sesek=熱い、熱くなる）に由来している</p>
               <p>テレビドラマ「北の国から 2002 遺言」 の露天風呂シーンのロケ地にも使われました</p>
-              <div className="img-wrap">
-                <img src="/img/seseki.jpg" alt="瀬石温泉" />
-                <img src="/img/seseki_mantyou.jpg" alt="瀬石温泉満潮時" />
-              </div>
+              
             <h1>温泉について</h1>
             <h3>入浴期間</h3>
             <p>７月初旬～９月中旬又は下旬<br />おすすめは、お盆過ぎから秋口にかけて</p>
             <h3>おすすめの時間</h3>
-            <p>帯お昼前後</p>
+            <p>お昼前後</p>
             <h3>入浴時間</h3>
             <p>基本的に入浴時間は決まっていない</p>
             <ul>
@@ -96,11 +98,10 @@ const Index = () => {
               <li>漁師さんの仕事の合間などをみて清掃しています。この温泉は個人管理の下にある温泉である</li>
             </ul>
             <p>理由から入浴時間については、<span className="line">現地に来てから、又はお電話でご確認ください</span><br />
-            管理：濱澤水産<br />電話（夏季：瀬石番屋）0153-89-2654 電話（夏季以外）0153-88-2384</p>
+            管理：<a href="https://rausu-konbu.com/seseki/" target=" _blank">濱澤水産</a><br />電話（夏季：瀬石番屋）0153-89-2654 電話（夏季以外）0153-88-2384</p>
             <h3>住所</h3>
             <p>〒086-1811 北海道目梨郡羅臼町瀬石</p>
-            <h3>入浴時のマナーについて</h3>
-            <p>入り口にはゲートが設置されています。ゲートが閉まっている時は入浴しないでください</p>
+            <h1>Q&A</h1>
             <h3>脱衣所はありますか？</h3>
             <p>脱衣所は設置しておりません。どうしてもという方は駐車場にトイレがございますので、そちらで着替えをお願いします。</p>
             <h3>シャワーはありますか？</h3>
@@ -115,7 +116,7 @@ const Index = () => {
             <p>海に向かって左側と右側に温泉があり、左側は暑すぎるため入浴できません。<br />右側はだいたい大人8人ぐらいは一度に入浴できる広さです</p>
             <h3>混浴ですか</h3>
             <p>混浴です</p>
-            <h3>泉質</h3>
+            <h3>泉質について</h3>
               <p>ナトリウム塩化物泉</p>
               <p>泉質：含硫黄ーナトリウムー塩化物泉<br />泉温：６４℃～７１℃、
                 PH:６．６、成分総計：６,０００mg／kg</p>
